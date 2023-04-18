@@ -47,8 +47,7 @@ ul {
 
 
 .container-fluid{
-    background-color: red;
-   background-color: rgb(41, 37, 38); 
+   background-color: rgba(41, 37, 38, 0.785); 
 }
 
 .logo{
@@ -124,6 +123,14 @@ footer div img{
 
 .buscador::placeholder{
     color: white;
+}
+
+.letra-index{
+    color: white;
+    font-family: "pippins";
+    padding: 30px;
+    text-align: center;  
+    background-color: rgba(0, 0, 0, 0.726);
 }
 
 .juegos{
@@ -270,6 +277,14 @@ div button{
 
 /* PROMOS */
 
+.casino-h1{
+    color: darkorange;
+    font-family: poppins;
+    padding: 30px;
+    text-align: center;  
+    background-color: black;
+}
+
 .c-1{
     margin-left: 20px;
     display: flex;
@@ -291,7 +306,6 @@ div button{
 }
 
 /* CASINO EN VIVO */
-
 .seccion-perfil{
     display: flex;
     justify-content: center;
@@ -333,6 +347,7 @@ div button{
     overflow: hidden;
 }
 
+
 /* INICIAR SESION/REGISTRATE */
 
 .fondo-adn{
@@ -359,8 +374,11 @@ div button{
     font-family: poppins;
     padding: 30px;
     text-align: center;
-    font-size: 25px;
     background-color: black;
+}
+
+.form-letra h1 {
+    font-size: 1.5rem;
 }
 
 .form-contacto {
@@ -449,6 +467,14 @@ div button{
     padding-bottom: 20px;
 }
 
+.contact-mobile{
+    display: none;
+    color: darkorange;
+    font-family: poppins;
+    padding: 30px;
+    text-align: center;  
+}   
+
 /* POLITICA Y PRIVACIDAD */
 
 .todo-jr{
@@ -519,4 +545,16 @@ div button{
     .button-c{
         margin-bottom: 3.5em;
     }
+}
+
+@media (max-width:600px){
+ 
+    .contact-mobile{
+        display: block;
+    }   
+
+    .form-contacto{
+        margin-bottom: 5em;
+    }
+
 }
