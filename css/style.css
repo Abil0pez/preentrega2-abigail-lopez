@@ -95,6 +95,11 @@ footer div img{
     display: inline;
 }
 
+.fondo-f ul{
+    display: flex;
+}
+
+
 /* FOOTER */
 
 .fondo-1{
@@ -496,5 +501,25 @@ div button{
 
     .navbar-nav {
         border-top: 2px solid black;
+    }
+}
+
+@media(max-width:814px){
+
+    .footer{
+        justify-content: space-around;
+    }
+
+    .fondo-f ul{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media(max-width:850px){
+
+    .boton{
+        display: none;
     }
 }
