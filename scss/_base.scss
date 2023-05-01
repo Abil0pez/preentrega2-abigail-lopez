@@ -1,0 +1,27 @@
+@font-face{
+    font-family:"poppins";
+    src: url(../Fonts/poppins-ttf);
+}
+
+@font-face{
+    font-family:"pippins";
+    src: url(../Fonts/pippins-2-ttf);
+}
+
+@font-face{
+    font-family:"poppinss";
+    src: url(../Fonts/poppins-ini-ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-image: url(../img/todo.jpg);
+    position: relative;
+    padding-bottom: 12em;
+    min-height: 100vh;
+}

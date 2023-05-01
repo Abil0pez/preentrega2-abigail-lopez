@@ -1,0 +1,33 @@
+.footer{
+    padding: 1em 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: "pippins";
+    background-color: rgb(41, 37, 38);
+
+    .logo-f{
+        img{
+            height: 130px; ;
+            display: inline;
+        }
+    }
+
+    .fondo-f{
+        ul{
+            display: flex;
+
+            li{    
+                display: inline;
+                padding-left: 70px;
+                
+                a{
+                    color: white;
+                }
+            }
+        }
+    }
+}

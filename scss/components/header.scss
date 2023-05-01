@@ -1,0 +1,30 @@
+.navbar{
+    padding: 0;
+
+    .container-fluid{
+        background-color: rgba(41, 37, 38, 0.785); 
+
+        .logo{
+            height: 130px;
+        }
+
+        .navbar-toggler{
+            background-color: white;
+        }
+
+        .navbar-nav{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+
+            li{
+                a{
+                    text-decoration: none;
+                    font-family: "poppins";
+                    color: rgb(148, 137, 122);
+                    font-weight: bold;
+                }
+            }
+        }
+     }
+}

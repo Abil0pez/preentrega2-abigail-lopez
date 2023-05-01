@@ -1,0 +1,34 @@
+.todo-pp{
+    background-color: black;
+    padding: 30px;
+
+    .titulo-pp{
+        color: darkorange;
+        text-align: center;
+        font-family: poppins;
+    }
+    
+    .letra-pp{
+        color: white;
+        font-family: poppins;
+        padding: 30px;
+
+        h2{
+            color: darkorange;
+            padding-left: 20px;
+            padding-bottom: 20px;
+        }
+    }
+
+    .letra-pp2{
+        padding: 30px;
+        color: white;
+        font-family: poppins;
+
+        h3{
+            color: darkorange;
+            padding-left: 20px;
+            padding-bottom: 20px;
+        }
+    }
+}
