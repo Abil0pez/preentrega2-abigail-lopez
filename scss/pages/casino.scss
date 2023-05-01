@@ -1,28 +1,46 @@
 .casino-h1{
     color: darkorange;
-    font-family: poppins;
+    font-family: $letra-poppins;
     padding: 30px;
     text-align: center;  
     background-color: black;
 }
 
 .c-1{
+    height: 20em;
     margin-left: 20px;
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
     margin-top: 50px;
+
+    iframe{
+        width: 50%;
+        height: 100%;
+    }
 }
 
 .c-2{
+    height: 20em;
     margin-left: 20px;
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
+
+    iframe{
+        width: 50%;
+        height: 100%;
+    }
 }
 .c-3{
+    height: 20em;
     margin-left: 20px;
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
+
+    iframe{
+        width: 50%;
+        height: 100%;
+    }
 }

@@ -5,12 +5,12 @@
     .titulo-pp{
         color: darkorange;
         text-align: center;
-        font-family: poppins;
+        font-family: $letra-poppins;
     }
     
     .letra-pp{
         color: white;
-        font-family: poppins;
+        font-family: $letra-poppins;
         padding: 30px;
 
         h2{
@@ -23,12 +23,12 @@
     .letra-pp2{
         padding: 30px;
         color: white;
-        font-family: poppins;
+        font-family: $letra-poppins;
 
         h3{
-            color: darkorange;
-            padding-left: 20px;
-            padding-bottom: 20px;
+                color: darkorange;
+    padding-left: 20px;
+    padding-bottom: 20px;
         }
     }
 }

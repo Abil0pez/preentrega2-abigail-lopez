@@ -3,23 +3,23 @@
 
     .jg-d{
         color: darkorange;
-        font-family: poppins;
+        font-family: $letra-poppins;
         text-align: center;
     }
 
     .letras-jr{
         color: white;
-        font-family: poppins;
+        font-family: $letra-poppins;
         padding: 30px;
 
         .jr{
-            font-family: poppins;
+            font-family: $letra-poppins;
             margin-bottom: 10px;
         }
 
         .letras-jr1{
             color: darkorange;
-            font-family: poppins;
+            font-family: $letra-poppins;
             margin-top: 20px;
         }
     }

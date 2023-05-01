@@ -26,37 +26,52 @@
 
 .casino-h1 {
   color: darkorange;
-  font-family: poppins;
+  font-family: "poppins";
   padding: 30px;
   text-align: center;
   background-color: black;
 }
 
 .c-1 {
+  height: 20em;
   margin-left: 20px;
   display: flex;
   justify-content: center;
   padding-bottom: 40px;
   margin-top: 50px;
 }
+.c-1 iframe {
+  width: 50%;
+  height: 100%;
+}
 
 .c-2 {
+  height: 20em;
   margin-left: 20px;
   display: flex;
   justify-content: center;
   padding-bottom: 40px;
 }
+.c-2 iframe {
+  width: 50%;
+  height: 100%;
+}
 
 .c-3 {
+  height: 20em;
   margin-left: 20px;
   display: flex;
   justify-content: center;
   padding-bottom: 40px;
+}
+.c-3 iframe {
+  width: 50%;
+  height: 100%;
 }
 
 .form-letra {
   color: darkorange;
-  font-family: poppins;
+  font-family: "poppins";
   padding: 30px;
   text-align: center;
   background-color: black;
@@ -68,7 +83,7 @@
 .contact-mobile {
   display: none;
   color: darkorange;
-  font-family: poppins;
+  font-family: "poppins";
   padding: 30px;
   text-align: center;
 }
@@ -84,7 +99,7 @@
   color: white;
   margin-top: 1em;
   border-radius: 10px;
-  font-family: "pippins";
+  font-family: "$letra-pippins";
   width: 100%;
   padding: 0.5rem;
   margin-bottom: 1rem;
@@ -121,18 +136,26 @@
   background-color: #3E8E41;
 }
 
+@media (max-width: 600px) {
+  .contact-mobile {
+    display: block;
+  }
+  .form-contacto {
+    margin-bottom: 5em;
+  }
+}
 .fondo-adn {
   background-color: black;
 }
 .fondo-adn .adn .letra-adn1 {
   color: darkorange;
-  font-family: poppins;
+  font-family: "poppins";
   padding: 30px;
   text-align: center;
 }
 .fondo-adn .letra-adn {
   color: white;
-  font-family: poppins;
+  font-family: "poppins";
   padding: 30px;
 }
 
@@ -161,7 +184,7 @@
 
 .letra-index {
   color: white;
-  font-family: "pippins";
+  font-family: "$letra-pippins";
   padding: 30px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.726);
@@ -171,21 +194,27 @@
   color: white;
 }
 
-.juegos {
+.juegos-todo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.juegos-todo .juegos {
   position: relative;
   display: inline-block;
 }
-.juegos img {
+.juegos-todo .juegos img {
   margin: 30px 20px 0px 60px;
   width: 250px;
   padding-bottom: 70px;
 }
-.juegos p {
+.juegos-todo .juegos p {
   position: absolute;
   top: 80%;
   left: 35%;
   color: white;
-  font-family: poppins;
+  font-family: "poppins";
 }
 
 .mas-p {
@@ -203,6 +232,16 @@
   width: 80px;
 }
 
+@media (max-width: 850px) {
+  .boton {
+    display: none;
+  }
+}
+@media (max-width: 404px) {
+  .button-c {
+    margin-bottom: 3.5em;
+  }
+}
 .seccion-perfil {
   display: flex;
   justify-content: center;
@@ -246,11 +285,11 @@
 .todo-pp .titulo-pp {
   color: darkorange;
   text-align: center;
-  font-family: poppins;
+  font-family: "poppins";
 }
 .todo-pp .letra-pp {
   color: white;
-  font-family: poppins;
+  font-family: "poppins";
   padding: 30px;
 }
 .todo-pp .letra-pp h2 {
@@ -261,7 +300,7 @@
 .todo-pp .letra-pp2 {
   padding: 30px;
   color: white;
-  font-family: poppins;
+  font-family: "poppins";
 }
 .todo-pp .letra-pp2 h3 {
   color: darkorange;
@@ -270,7 +309,7 @@
 }
 
 .banner-p {
-  font-family: "pippins";
+  font-family: "$letra-pippins";
   font-size: 2rem;
   color: darkorange;
   text-align: center;
@@ -281,7 +320,7 @@
 
 .primer-p {
   background-image: url(../img/montaña-p.jpg);
-  font-family: poppins;
+  font-family: "poppins";
   font-size: 30px;
   color: black;
   margin-left: 50px;
@@ -289,7 +328,7 @@
   padding-top: 30px;
 }
 .primer-p .segundo-p {
-  font-family: poppins;
+  font-family: "poppins";
   font-size: 20px;
   color: black;
   position: absolute;
@@ -309,14 +348,14 @@
   padding: 2px;
   margin: 5px 0px 0px 50px;
   background-color: white;
-  font-family: "poppins";
+  font-family: "$letra-poppins";
 }
 .p-p a {
   color: black;
 }
 
 .banner-s {
-  font-family: "pippins";
+  font-family: "$letra-pippins";
   font-size: 2.5rem;
   color: darkorange;
   text-align: center;
@@ -327,7 +366,7 @@
 
 .primer-s {
   background-image: url(../img/casa-s.jpg);
-  font-family: poppins;
+  font-family: "poppins";
   font-size: 30px;
   color: black;
   margin-left: 50px;
@@ -336,7 +375,7 @@
   text-align: center;
 }
 .primer-s .segundo-s {
-  font-family: poppins;
+  font-family: "poppins";
   font-size: 20px;
   color: black;
   position: absolute;
@@ -350,6 +389,24 @@
   position: relative;
 }
 
+@media (max-width: 1075px) {
+  .img-s img {
+    display: none;
+  }
+  .primer-p {
+    width: 100%;
+    height: 15em;
+    margin: 0;
+  }
+  .img-p img {
+    display: none;
+  }
+  .primer-s {
+    width: 100%;
+    height: 15em;
+    margin: 0;
+  }
+}
 .seccion-perfil {
   display: flex;
   justify-content: center;
@@ -391,21 +448,21 @@
 }
 .todo-jr .jg-d {
   color: darkorange;
-  font-family: poppins;
+  font-family: "poppins";
   text-align: center;
 }
 .todo-jr .letras-jr {
   color: white;
-  font-family: poppins;
+  font-family: "poppins";
   padding: 30px;
 }
 .todo-jr .letras-jr .jr {
-  font-family: poppins;
+  font-family: "poppins";
   margin-bottom: 10px;
 }
 .todo-jr .letras-jr .letras-jr1 {
   color: darkorange;
-  font-family: poppins;
+  font-family: "poppins";
   margin-top: 20px;
 }
 
@@ -435,6 +492,16 @@
   color: white;
 }
 
+@media (max-width: 814px) {
+  .footer {
+    justify-content: space-around;
+  }
+  .fondo-f ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
 .navbar {
   padding: 0;
 }
@@ -457,6 +524,16 @@
   font-family: "poppins";
   color: rgb(148, 137, 122);
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav li {
+    padding: 10px;
+    text-decoration: underline white;
+  }
+  .navbar-nav {
+    border-top: 2px solid black;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

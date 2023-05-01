@@ -1,6 +1,6 @@
 .banner-p{
     
-    font-family:"pippins";
+    font-family:"$letra-pippins";
     font-size: 2rem;
     color: darkorange;
     text-align: center;
@@ -12,7 +12,7 @@
 
 .primer-p{
     background-image: url(../img/montaña-p.jpg);
-    font-family: poppins;
+    font-family: $letra-poppins;
     font-size: 30px;
     color: black;
     margin-left: 50px;
@@ -20,7 +20,7 @@
     padding-top: 30px;
 
     .segundo-p{
-        font-family: poppins;
+        font-family: $letra-poppins;
         font-size: 20px;
         color: black;
         position: absolute;
@@ -42,7 +42,7 @@
     padding: 2px;
     margin: 5px 0px 0px 50px;
     background-color: white;
-    font-family:"poppins";
+    font-family:"$letra-poppins";
 
     a{
         color: black;
@@ -50,7 +50,7 @@
 }
 
 .banner-s{
-    font-family: "pippins";
+    font-family: "$letra-pippins";
     font-size: 2.5rem;
     color: darkorange;
     text-align: center;
@@ -62,7 +62,7 @@
 
 .primer-s{
     background-image: url(../img/casa-s.jpg);
-    font-family: poppins;
+    font-family: $letra-poppins;
     font-size: 30px;
     color: black;
     margin-left: 50px;
@@ -71,7 +71,7 @@
     text-align: center;
 
     .segundo-s{
-        font-family: poppins;
+        font-family: $letra-poppins;
         font-size: 20px;
         color: black;
         position: absolute;
@@ -85,5 +85,26 @@
         justify-content: flex-end;
         padding-right: 80px;
         position: relative;
+    }
+}
+
+@media (max-width:1075px){
+    .img-s img{
+        display: none;
+    }
+
+    .primer-p{
+        width: 100%;
+        height: 15em;
+        margin: 0;
+    }
+
+    .img-p img{
+        display: none;
+    }
+    .primer-s{
+        width: 100%;
+        height: 15em;
+        margin: 0;
     }
 }

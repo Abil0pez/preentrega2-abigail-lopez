@@ -31,3 +31,16 @@
         }
     }
 }
+
+@media(max-width:814px){
+
+    .footer{
+        justify-content: space-around;
+    }
+
+    .fondo-f ul{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}

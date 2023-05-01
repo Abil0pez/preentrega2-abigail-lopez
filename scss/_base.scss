@@ -1,3 +1,7 @@
+$letra-poppins:"poppins";
+$letra-pippins:"pippins";
+$letra-poppinss:"poppinss";
+
 @font-face{
     font-family:"poppins";
     src: url(../Fonts/poppins-ttf);
@@ -11,6 +15,12 @@
 @font-face{
     font-family:"poppinss";
     src: url(../Fonts/poppins-ini-ttf);
+}
+
+@mixin mobile{
+    @media (max-width:768px){
+        @content
+    }
 }
 
 *{

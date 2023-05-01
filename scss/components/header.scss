@@ -28,3 +28,14 @@
         }
      }
 }
+
+@include mobile{
+    .navbar-nav li {
+        padding: 10px;
+        text-decoration: underline white;
+    }
+
+    .navbar-nav {
+        border-top: 2px solid black;
+    }
+}

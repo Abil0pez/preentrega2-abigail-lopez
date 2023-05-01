@@ -26,7 +26,7 @@
 
 .letra-index{
     color: white;
-    font-family: "pippins";
+    font-family: "$letra-pippins";
     padding: 30px;
     text-align: center;  
     background-color: rgba(0, 0, 0, 0.726);
@@ -35,6 +35,13 @@
 .buscador::placeholder{
     color: white;
 }
+
+.juegos-todo{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 
 .juegos{
     position: relative;
@@ -51,8 +58,10 @@
         top: 80%;
         left: 35%;
         color: white;
-        font-family: poppins;
+        font-family: $letra-poppins;
     }
+}
+
 }
 
 .mas-p{
@@ -71,8 +80,15 @@
     }
 }
 
+@media(max-width:850px){
 
+    .boton{
+        display: none;
+    }
+}
 
-
-
-
+@media(max-width:404px){
+    .button-c{
+        margin-bottom: 3.5em;
+    }
+}
