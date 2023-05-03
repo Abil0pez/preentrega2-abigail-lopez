@@ -181,6 +181,7 @@
   padding: 15px;
   width: 405px;
   background: rgb(50, 46, 47);
+  color: white;
 }
 
 .letra-index {
@@ -215,7 +216,6 @@
   top: 80%;
   left: 35%;
   color: white;
-  font-family: "poppins";
 }
 
 .mas-p {
@@ -260,7 +260,10 @@
   width: 500px;
   border-radius: 20px;
 }
-.seccion-perfil .form-box .form-box h2 {
+.seccion-perfil .form-box h1 {
+  color: black;
+}
+.seccion-perfil .form-box .form-box h1 {
   color: black;
   position: relative;
   bottom: 70px;

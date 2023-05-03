@@ -20,6 +20,7 @@
             padding: 15px;
             width:405px;
             background:  rgb(50, 46, 47);
+            color: white;        
         }
     }
 }
@@ -28,7 +29,7 @@
     color: white;
     font-family: "$letra-pippins";
     padding: 30px;
-    text-align: center;
+    text-align: center;  
     background-color: rgba(0, 0, 0, 0.726);
 }
 
@@ -58,7 +59,8 @@
         top: 80%;
         left: 35%;
         color: white;
-        font-family: $letra-poppins;
+        $letra-poppins:"poppins";
+
     }
 }
 
@@ -73,7 +75,7 @@
         background-color: darkgoldenrod;
         border-radius: 5px;
         margin-bottom: 2.5em;
-        margin-left: 50px;
+        margin-left: 50px; 
         display:flex ;
         justify-content: center;
         width: 80px;
